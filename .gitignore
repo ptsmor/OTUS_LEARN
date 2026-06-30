@@ -1,3 +1,28 @@
+# Bitrix core и пользовательские файлы (не версионируем)
 /bitrix/
 /upload/
 /vendor/
+
+# Секреты и локальные заметки
+.env
+.env.*
+*.env
+.settings.php
+dbconn.php
+xz.txt
+secrets/
+*.pem
+*.key
+
+# IDE и ОС
+.idea/
+.vscode/launch.json
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Логи и кеш
+*.log
+/cache/
