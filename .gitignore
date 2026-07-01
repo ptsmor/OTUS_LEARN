@@ -1,28 +1,85 @@
-# Bitrix core и пользовательские файлы (не версионируем)
-/bitrix/
-/upload/
-/vendor/
-
-# Секреты и локальные заметки лишние
-.env
-.env.*
-*.env
-.settings.php
-dbconn.php
-xz.txt
-secrets/
-*.pem
-*.key
-
-# IDE и ОС
+# IDE и системные файлы
 .idea/
-.vscode/launch.json
+/.env
+.env.*
+*.iml
+.vscode/
+.cache/
+.well-known
+.DS_Store
+Thumbs.db
+*.log
+*.txt
+*.dt
 *.swp
 *.swo
-Thumbs.db
-Desktop.ini
-.DS_Store
+*.pdf
+*.doc
+*.docx
+*.csv
+*.xls
+*.old
+*.sketch
+*.http
+.hg
+.ftpconfig
+.git
+.htpasswd
+*.bak
+*.tmp
 
-# Логи и кеш
-*.log
-/cache/
+*.rar
+*.7z
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+#analitics
+yandex_*.html
+google*.html
+sitemap*.xml
+!/robots.txt
+
+#bitrix
+/bitrix/backup/
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/managed_flags/
+/bitrix/stack_cache/
+/bitrix/catalog_export/
+/bitrix/html_pages/
+/logs/*
+/upload/*
+/images/*
+/restore.php
+!/upload/.htaccess
+
+# логи
+logs/
+
+# Node.js (если используется сборка фронта)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+dist/
+build/
+
+# Исключения из upload (если нужно хранить файлы миграций, импортов и т.п.)
+# !/upload/1c_catalog/
+# !/upload/iblock/
+# !/upload/sale_import/
+
+#bitrix settings
+# /bitrix/.settings.php
+/bitrix/.settings_extra.php
+# /bitrix/php_interface/dbconn.php
+
+
+#custom
