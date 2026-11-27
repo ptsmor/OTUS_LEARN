@@ -1,0 +1,85 @@
+.otus-garage-form {
+    margin-bottom: 20px;
+    padding: 16px;
+    background: #f8fafb;
+    border: 1px solid #e2e5e8;
+    border-radius: 8px;
+}
+
+.otus-garage-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.otus-garage-form-row label {
+    min-width: 120px;
+    font-size: 13px;
+}
+
+.otus-garage-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.otus-garage-table th,
+.otus-garage-table td {
+    border: 1px solid #e2e5e8;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.otus-garage-table th {
+    background: #f0f3f5;
+}
+
+.otus-garage-modal[hidden] {
+    display: none !important;
+}
+
+.otus-garage-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 50000;
+}
+
+.otus-garage-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.otus-garage-modal__content {
+    position: relative;
+    max-width: 900px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    max-height: calc(100vh - 120px);
+    overflow: auto;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.otus-garage-deal-parts-row td {
+    background: #f8fafb;
+    font-size: 12px;
+}
+
+.otus-garage-deal-parts-list {
+    margin: 6px 0 0 18px;
+    padding: 0;
+}
+
+.otus-garage-modal__close {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}

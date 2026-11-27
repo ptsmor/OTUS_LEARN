@@ -1,0 +1,12 @@
+<?php
+
+$MESS['OTUS_AUTO_VEHICLE_ID'] = 'ID';
+$MESS['OTUS_AUTO_VEHICLE_CONTACT_ID'] = 'Контакт';
+$MESS['OTUS_AUTO_VEHICLE_BRAND_ID'] = 'Марка';
+$MESS['OTUS_AUTO_VEHICLE_MODEL_ID'] = 'Модель';
+$MESS['OTUS_AUTO_VEHICLE_PLATE'] = 'Госномер';
+$MESS['OTUS_AUTO_VEHICLE_YEAR'] = 'Год выпуска';
+$MESS['OTUS_AUTO_VEHICLE_COLOR'] = 'Цвет';
+$MESS['OTUS_AUTO_VEHICLE_MILEAGE'] = 'Пробег, км';
+$MESS['OTUS_AUTO_VEHICLE_DATE_CREATE'] = 'Дата добавления';
+$MESS['OTUS_AUTO_VEHICLE_CREATED_BY'] = 'Кто добавил';
