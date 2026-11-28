@@ -1,0 +1,29 @@
+<?php
+
+$MESS['OTUS_AUTO_GARAGE_NO_HL'] = 'Справочники марок и моделей ещё не созданы. Выполните миграцию Sprint (Version20261113193000_AutoserviceDirectories).';
+$MESS['OTUS_AUTO_GARAGE_ADD'] = 'Добавить автомобиль';
+$MESS['OTUS_AUTO_GARAGE_BRAND'] = 'Марка';
+$MESS['OTUS_AUTO_GARAGE_MODEL'] = 'Модель';
+$MESS['OTUS_AUTO_GARAGE_PLATE'] = 'Госномер';
+$MESS['OTUS_AUTO_GARAGE_YEAR'] = 'Год';
+$MESS['OTUS_AUTO_GARAGE_COLOR'] = 'Цвет';
+$MESS['OTUS_AUTO_GARAGE_MILEAGE'] = 'Пробег';
+$MESS['OTUS_AUTO_GARAGE_SELECT'] = '— выберите —';
+$MESS['OTUS_AUTO_GARAGE_SELECT_BRAND_FIRST'] = 'Сначала выберите марку';
+$MESS['OTUS_AUTO_GARAGE_SAVE'] = 'Сохранить';
+$MESS['OTUS_AUTO_GARAGE_COL_BRAND'] = 'Марка';
+$MESS['OTUS_AUTO_GARAGE_COL_MODEL'] = 'Модель';
+$MESS['OTUS_AUTO_GARAGE_COL_PLATE'] = 'Номер';
+$MESS['OTUS_AUTO_GARAGE_COL_YEAR'] = 'Год';
+$MESS['OTUS_AUTO_GARAGE_COL_COLOR'] = 'Цвет';
+$MESS['OTUS_AUTO_GARAGE_COL_MILEAGE'] = 'Пробег';
+$MESS['OTUS_AUTO_GARAGE_HISTORY'] = 'История';
+$MESS['OTUS_AUTO_GARAGE_EMPTY'] = 'Автомобили не добавлены';
+$MESS['OTUS_AUTO_GARAGE_NO_DEALS'] = 'По этому автомобилю сделок пока нет';
+$MESS['OTUS_AUTO_DEAL_TITLE'] = 'Сделка';
+$MESS['OTUS_AUTO_DEAL_DATE'] = 'Дата';
+$MESS['OTUS_AUTO_DEAL_STAGE'] = 'Стадия';
+$MESS['OTUS_AUTO_DEAL_ASSIGNED'] = 'Ответственный';
+$MESS['OTUS_AUTO_DEAL_SUM'] = 'Сумма';
+$MESS['OTUS_AUTO_DEAL_PARTS'] = 'Услуги и запчасти';
+$MESS['OTUS_AUTO_DEAL_PARTS_EMPTY'] = 'в сделке нет товарных позиций';
